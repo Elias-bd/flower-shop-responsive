@@ -1,13 +1,77 @@
 .lato-normal {
     font-family: "Lato", serif;
     font-style: normal;
-  }
+}
 
 
 
-  /* banner styles  */
-  .banner-title{
+/* shared styles  */
+
+.font-primary {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.btn-primary {
+    background-color: #E55473;
+    padding: 20px 40px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+
+}
+
+
+
+/* header styles  */
+header {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(229, 84, 115, 0.1);
+
+}
+
+/* banner styles  */
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    padding: 0px 240px 0px 240px;
+}
+
+
+
+.banner-title {
     font-size: 80px;
     font-weight: 800;
     color: rgba(39, 39, 39, 1);
-  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Media Query  */
+
+@media screen and (max-width:576px) {
+    .banner {
+        flex-direction: column;
+        width: calc(100% - 20px);
+        padding: 10px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+}
