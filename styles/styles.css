@@ -17,6 +17,7 @@
     font-size: 40px;
     font-weight: 800;
     color: #272727;
+    margin-bottom: 24px;
 }
 
 .btn-primary {
@@ -167,8 +168,27 @@ header {
 #red{
     color: #E55473;
 }
+
 .sale-text{
     text-align: center;
+}
+
+.instagram{
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+.insta-text{
+    text-align: center;
+}
+
+.insta-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
 }
 
 
@@ -194,7 +214,8 @@ header {
     /* Banner responsive done  */
     .featured-img-container,
     .support-container, 
-    .sale {
+    .sale, 
+    .insta-img {
         flex-direction: column;
 
     }
@@ -230,6 +251,7 @@ header {
     .sale{
         height: auto;
     }
+
 
 
 }
