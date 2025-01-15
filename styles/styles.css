@@ -127,8 +127,30 @@ header {
     cursor: pointer;
 }
 
+/* support section styles  */
+
+.support {
+    max-width: 1440px;
+    max-height: auto;
+    margin: 0 auto;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    margin-bottom: 130px;
+
+}
+
+.support-container {
+    display: flex;
+    justify-content: center;
+    padding: 86px 175px;
+    gap: 150px;
 
 
+}
+
+.support-column {
+    text-align: center;
+}
 
 
 
@@ -152,7 +174,8 @@ header {
     }
 
     /* Banner responsive done  */
-    .featured-img-container {
+    .featured-img-container,
+    .support-container {
         flex-direction: column;
 
     }
@@ -179,6 +202,11 @@ header {
     .featured-text {
         width: calc(100% - 20px);
         margin: auto;
+    }
+
+    .support-container {
+        padding: 20px;
+        gap: 100px;
     }
 
 
