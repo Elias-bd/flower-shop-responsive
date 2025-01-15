@@ -1,0 +1,13 @@
+.lato-normal {
+    font-family: "Lato", serif;
+    font-style: normal;
+  }
+
+
+
+  /* banner styles  */
+  .banner-title{
+    font-size: 80px;
+    font-weight: 800;
+    color: rgba(39, 39, 39, 1);
+  }
