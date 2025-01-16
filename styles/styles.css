@@ -221,7 +221,43 @@ header {
     height: 64px;
 }
 
+/* footer styles  */
 
+footer {
+    max-width: 1922px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #111010;
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    border-radius: 8px;
+
+}
+
+.red {
+    font-size: 48px;
+    font-weight: 800;
+    color: #E55473;
+}
+
+.white {
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.f-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.copyright {
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
 
 
 
@@ -289,6 +325,9 @@ header {
         margin-top: 20px;
     }
 
-
+    .deals {
+        height: auto;
+        padding-bottom: 30px;
+    }
 
 }
