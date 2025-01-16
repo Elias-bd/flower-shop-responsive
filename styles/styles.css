@@ -153,7 +153,7 @@ header {
 
 /* sale section starts  */
 
-.sale{
+.sale {
     max-width: 1920px;
     height: 620px;
     margin: 0 auto;
@@ -165,33 +165,61 @@ header {
     gap: 180px;
 }
 
-#red{
+#red {
     color: #E55473;
 }
 
-.sale-text{
+.sale-text {
     text-align: center;
 }
 
-.instagram{
+.instagram {
     max-width: 1920px;
     margin: 0 auto;
     margin-bottom: 128px;
 }
 
-.insta-text{
+.insta-text {
     text-align: center;
 }
 
-.insta-img{
+.insta-img {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    
+
 }
 
+.deals {
+    max-width: 1440px;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url(../Asset/Rectangle\ 9.png);
+    margin-bottom: 120px;
 
+}
+
+.deal-container {
+    text-align: center;
+    padding-top: 122px;
+}
+
+.data {
+    padding-left: 22px;
+}
+
+.data {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+#btn {
+    height: 64px;
+}
 
 
 
@@ -213,8 +241,8 @@ header {
 
     /* Banner responsive done  */
     .featured-img-container,
-    .support-container, 
-    .sale, 
+    .support-container,
+    .sale,
     .insta-img {
         flex-direction: column;
 
@@ -248,8 +276,17 @@ header {
         padding: 20px;
         gap: 100px;
     }
-    .sale{
+
+    .sale {
         height: auto;
+    }
+
+    .data {
+        width: calc(100% - 18px);
+    }
+
+    #btn {
+        margin-top: 20px;
     }
 
 
